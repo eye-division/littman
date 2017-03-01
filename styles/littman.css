@@ -1,0 +1,88 @@
+/* -----------------------------------------------------------------------
+Littman specific styles
+----------------------------------------------------------------------- */
+
+/* additions to blueprint base */
+body {font-size:90%;color:#222;background:#ffe5ca;font-family:"Helvetica Neue", Tahoma, Arial, Helvetica, sans-serif;background-image:url('../images/bg.png'); background-position:left top; background-repeat:repeat-y; }
+.container {width:950px;margin:0; padding-left:30px;}
+/*.container {width:950px;margin:0 auto;}*/
+h1 { font-size:1.6em; color:#900; }
+h2 { font-size:1.3em; color:#900; }
+strong { color: #900;}
+a, a:link, a:visited { color:#900; text-decoration:none; }
+a:hover { color:#000;}
+td { vertical-align:top; }
+td { border-bottom: 1px solid #fcbe7d; }
+th {background-color:#fcbe7d; }
+tr.odd { background-color:#FFF; }
+
+/* specific Littman styles */
+/* lhs navigation */
+ul.menu {
+	list-style:none;
+	margin-left:2px;
+}
+.menu li {
+	padding:2px;
+}
+
+a.current {
+	color: black;
+}
+ul.menu ul {
+	list-style:none;
+	margin-left:0;
+}
+li.boxedList { margin-top:1em; border-top:1px solid #fcbe7d; }
+/* right hand column */
+.related { text-align:left; font-size:0.8em;}
+/* book details rhs */
+.details { text-align:left; padding: 5px 0 5px 10px; border-bottom:1px solid #fcbe7d; border-top:1px solid #fcbe7d; }
+.related p , .related h3, .related h4 { padding-left: 10px; }
+
+/* recent books page */
+.book {
+	display:block;
+	clear:both;
+	width:100%;
+	padding:15px;
+}
+
+.book img {
+	border:none;
+	float:left;
+	padding:5px 15px 40px 5px;
+	height:60px;
+	width:40px;
+}
+/* from 2003.css */
+.author {  font-size: 12pt; font-weight: bold; text-align: left; }
+address {text-align: center;}
+.bookheader {  font-size: 1.2em; font-style: normal; font-weight: bold; text-align: left; }
+.booksubheader {  font-size: 1em; font-style: normal; font-weight: bold; }
+.booktable {  font-size: 1em; font-style: normal; font-weight: bold;  }
+.booktable1 {   font-size: 1em; font-style: italic; font-weight: bold;  text-align: right;  }
+.bookheaderlink {  font-size: 1.2em; font-style: normal; font-weight: bold; text-decoration: none;}
+.bookpara {  font-size: 1em; font-style: normal; line-height: 95%; font-weight: normal;  text-align: left;}
+.sectiontable1 {  font-size: 1em; font-style: normal; font-weight: normal;  }
+.sectiontable1 a { font-size: 1em; }
+.translator {  font-size: 1em; font-weight: normal;  text-align: left; }
+.contents {  font-size: 1em; font-style: normal; line-height: 100%; font-weight: normal; color: #660033; text-decoration: none; text-align: left; }
+.cat-table1 {  font-size: 0.9em; font-style: normal; font-weight: normal; text-decoration: none; text-align: left; }
+.booksubtitle { font-size: 1.1em; font-style: normal; font-weight: normal; text-align: center;}
+.booktable a {
+	color: #C33;
+}
+
+
+/* special offers banner */
+.special { background:url('../images/specialOffersBanner.gif') top left no-repeat; }
+
+#galleria {
+  height: 620px;
+  width:500px;
+}
+/* hide alt text */
+.galleria-info {
+	display:none;
+}
